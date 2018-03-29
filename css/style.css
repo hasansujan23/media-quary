@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.div-one{
+    height: 200px;
+    width: 300px;
+    background-color: darkslateblue;
+    float: left;
+
+}
+
+
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px){
+    body{
+        background-color: green;
+    }
+}
+
+
+
+
